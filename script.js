@@ -8,7 +8,7 @@ function processInput() {
         window.location.href = 'question.html';
      } else //if (input.length === correctPassword.length)
       {
-        alert('Salah = Cium'); 
+        alert('Salah = Coklat'); 
         clearInput();
     }
 }
