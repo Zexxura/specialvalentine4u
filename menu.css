@@ -1,0 +1,152 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+.square {
+    position: absolute;
+    width: 350px;
+    height: 160px;
+    background-color: rgb(243, 192, 218);
+    margin: 0 auto;
+    outline: 3px solid;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+}
+
+h1 {
+    margin-top: 200px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(243, 192, 218);
+    width: 350px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    height: 30px;
+    position: absolute;
+    /* top: px; */
+    /* bottom: 20px; */
+    top: -40px;
+}
+.back-button {
+    position: absolute;
+    margin: 0 auto;
+    top: 140px;
+    right: 250px;
+}
+button {
+    position: absolute;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: rgb(236, 194, 224);
+    top: 30px;
+    left: -100px;
+    color: black;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.gallery {
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    margin: 0 auto;
+    top: 25px;
+    left: 20px;
+    margin-right: 100px;
+    margin-bottom: 15px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.text-galeri {
+    font-size: 10px;
+    position: absolute;
+    margin: auto;
+    bottom: 25px;
+    left: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 15px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.text-message {
+    font-size: 9px;
+    position: absolute;
+    margin: auto 0;
+    bottom: 25px;
+    left: 130px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 25px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.message-img {
+    width: 90px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 3px solid black;
+    border-radius: 20px;
+    /* margin-right: 100px;
+    margin-bottom: 15px;
+    border: 3px solid black;
+    border-radius: 20px; */
+}
+
+.text-minigames {
+    position: absolute;
+    left: 237px;
+    bottom: 16px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 9px;
+    padding: 0 9px;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.minigames-img {
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    margin: 0 auto;
+    right: 18px;
+    top: 28px;
+    border: 3px solid black;
+    border-radius: 20px;
+
+}
+
+.square {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+.judul-text {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}

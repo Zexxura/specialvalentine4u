@@ -1,0 +1,126 @@
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 750px;
+    height: 600px;
+    border: 10px solid rgb(255, 168, 229);
+    border-radius: 60px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  h1 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #f6cdfc;
+    width: 520px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.smallText > p {
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 25px;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    bottom: 20px;
+    background-color: #f6cdfc;
+    width: 470px;
+    height: 35px;
+    margin-left: 50px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+}
+  
+  #countdown {
+    display: flex;
+    gap: 30px; /* Mengatur jarak antar elemen waktu */
+    margin-bottom: 20px;
+    margin-left: 65px;
+  }
+  
+  .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  span {
+    font-size: 100px;
+    /* font-weight: bold; */
+    color: #333;
+    font-family: "Coiny", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f7c0ff;
+  }
+  img {
+    position: absolute;
+    width: 150px;
+    border: 5px solid rgb(236, 172, 255);
+    border-radius: 100px;
+    top: 670px;
+    left: 1px;
+    margin-left: 150px;
+  }
+
+  .text {
+    margin-left: 190px;
+  }
+
+  p {
+    font-size: 30px;
+    font-family: "Coiny", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f4aeff;
+  }
+
+  .next-button {
+    position: absolute;
+    margin: 0 auto;
+    top: 140px;
+    right: 250px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+button {
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    border-radius: 20px;
+    border: 5px solid #f4aeff;
+    background-color: rgb(255, 255, 255);
+    top: 1150px;
+    left: -70px;
+    color: #d37ce0;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+}

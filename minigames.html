@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kata2 lagieh</title>
+    <link rel="stylesheet" href="minigames.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Annisa.</strong>
+                        <p>
+                            Thank you yaa udah nerima gua, nerima sisi buruk gua, ngedorong gua buat jadi pribadi yang lebih baik.
+                            I'm so lucky to have you in my life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <div>
+        <!-- <div class="back-button">
+            <a href="menu.html">
+                <button type="button"> backk</button>
+            </a>
+            <br>
+    </div> -->
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+    <audio autoplay loop>
+        <source src="media/Jim_Brickman_Martina_McBride_-_My_Valentine_Lyrics.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+</body>
+</html>
